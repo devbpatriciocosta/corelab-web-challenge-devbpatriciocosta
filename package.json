@@ -1,53 +1,44 @@
 {
-  "name": "corelab-web-challenge",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.1",
-    "@types/node": "^16.11.35",
-    "@types/react": "^18.0.9",
-    "@types/react-dom": "^18.0.4",
-    "node-sass": "^7.0.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.6.4",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "corelab-web-challenge-devbpatriciocosta",
+  "version": "1.0.0",
+  "description": "Teste de nivelamento - CoreLab",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbpatriciocosta/corelab-web-challenge-devbpatriciocosta.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devbpatriciocosta/corelab-web-challenge-devbpatriciocosta/issues"
   },
-  "jest": {
-    "transformIgnorePatterns": [
-      "/node_modules/(?!antd|@ant-design|rc-.+?|@babel/runtime).+(js|jsx)$"
-    ]
+  "homepage": "https://github.com/devbpatriciocosta/corelab-web-challenge-devbpatriciocosta#readme",
+  "dependencies": {
+    "@hookform/resolvers": "^2.8.8",
+    "axios": "^0.26.0",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.4",
+    "next": "^12.0.7",
+    "next-connect": "^0.12.2",
+    "next-joi": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.27.1",
+    "styled-components": "^5.3.5"
   },
-  "engines": {
-    "node": "^16.15.0",
-    "npm": "^8.5.5"
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0"
   }
 }
