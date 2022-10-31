@@ -4,7 +4,7 @@
 ### Primeiramente gostaria de agradecer ao Diego e ao Thiago pela oportunidade de participar desse desafio e mostrar/colocar em prática os meus conhecimentos adquiridos nos últimos 7 meses de estudo;
 
 
-## Os objetivos e requisitos solicitados no desafios que foram cumpridos possuem um check ao lado nas listas abaixo: 
+#### Os objetivos e requisitos solicitados no desafios que foram cumpridos possuem um check ao lado nas listas abaixo: 
 
 ## 1) The Required Features: 
 
