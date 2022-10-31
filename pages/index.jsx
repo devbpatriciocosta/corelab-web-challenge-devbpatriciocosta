@@ -85,9 +85,14 @@ function HomePage() {
     return data?.filter(
       (post) =>
         post.carModel?.toLowerCase().includes(vehicle) ||
+        post.carModel?.toUpperCase().includes(vehicle) ||
         post.carBrand?.toLowerCase().includes(vehicle) ||
+        post.carBrand?.toUpperCase().includes(vehicle) ||
         post.carColor?.toLowerCase().includes(vehicle) ||
+        post.carColor?.toUpperCase().includes(vehicle) ||
         post.carYear?.toLowerCase().includes(vehicle) ||
+        post.carYear?.toUpperCase().includes(vehicle) ||
+        post.carPlate?.toLowerCase().includes(vehicle) ||
         post.carPlate?.toLowerCase().includes(vehicle) ||
         post.carPrice?.toLowerCase().includes(vehicle) ||
         post.carDescription?.toLowerCase().includes(vehicle)
@@ -102,7 +107,7 @@ function HomePage() {
             type="test"
             name="search"
             placeholder="Buscar"
-            onChange={(event) => setVehicle(event.target.value)}
+            onChange={(event) => setVehicle(event.target.value.toUpperCase())}
           />
           <ButtonAdding type="submit" onClick={handleClick}>
             ADICIONAR

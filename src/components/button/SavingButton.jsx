@@ -17,15 +17,10 @@ const StyledSavingButton = styled.button`
   }
 `
 
-const SavingButton = ({ children, loading, disabled, ...props }) => {
+const SavingButton = ({ children, disabled, ...props }) => {
   return (
-    <StyledSavingButton disabled={disabled || loading} {...props}>
-      {loading && (
-        <>
-          <p>{children}</p>
-        </>
-      )}
-      {!loading && children}
+    <StyledSavingButton disabled={disabled} {...props}>
+      {<p>{children}</p>}
     </StyledSavingButton>
   )
 }

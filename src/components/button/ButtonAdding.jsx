@@ -19,15 +19,10 @@ const StyledButtonAdding = styled.button`
   }
 `
 
-const ButtonAdding = ({ children, loading, disabled, ...props }) => {
+const ButtonAdding = ({ children, disabled, ...props }) => {
   return (
-    <StyledButtonAdding disabled={disabled || loading} {...props}>
-      {loading && (
-        <>
-          <p>{children}</p>
-        </>
-      )}
-      {!loading && children}
+    <StyledButtonAdding disabled={disabled} {...props}>
+      {<p>{children}</p>}
     </StyledButtonAdding>
   )
 }
