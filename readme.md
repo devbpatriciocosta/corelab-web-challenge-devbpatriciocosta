@@ -45,12 +45,11 @@
 
 
  3) Página de filtro: 
- 
    - A página de filtro possui algumas features similares a página inicial, uma vez que também expõe os cards individualizados de cada veículo;
    - Porém, essa página possui inputs de busca por Nome e Marca, cor e preço máximo e mínimo;
-   - Por conter o card filtrado, é possivel nessa página, dar o like no veículo desejado;
+   - Por conter o card filtrado, é possivel nessa página, dar o like no veículo desejado; 
    - Além disso, um botão de voltar, que também redireciona para a página inicial.
-  
+   
 
 ## Algumas novas features estão em mente para atualizar o projeto:
 
